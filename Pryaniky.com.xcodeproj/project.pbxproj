@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60FF6DC89C64C08FB3558453 /* Pods_Pryaniky_com.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DC3045CAB8B4A802AA1CCE /* Pods_Pryaniky_com.framework */; };
+		CA500AFC28648EC8006C5143 /* Pryaniky_comApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500AFB28648EC8006C5143 /* Pryaniky_comApp.swift */; };
+		CA500B0028648ECA006C5143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA500AFF28648ECA006C5143 /* Assets.xcassets */; };
+		CA500B0328648ECA006C5143 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA500B0228648ECA006C5143 /* Preview Assets.xcassets */; };
+		CA500B0B28649366006C5143 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B0A28649366006C5143 /* Constants.swift */; };
+		CA500B0E286493E3006C5143 /* ApiRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B0D286493E3006C5143 /* ApiRouter.swift */; };
+		CA500B1128649436006C5143 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B1028649436006C5143 /* Model.swift */; };
+		CA500B1528649487006C5143 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B1428649487006C5143 /* HomeViewModel.swift */; };
+		CA500B17286494D0006C5143 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B16286494D0006C5143 /* ApiClient.swift */; };
+		CA500B19286494F6006C5143 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B18286494F6006C5143 /* APIError.swift */; };
+		CA500B1E286497D4006C5143 /* PickerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B1C286497D4006C5143 /* PickerItem.swift */; };
+		CA500B1F286497D4006C5143 /* ViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B1D286497D4006C5143 /* ViewItem.swift */; };
+		CA500B2128649898006C5143 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA500B2028649898006C5143 /* HomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A0915BDD55E4674F7B42075 /* Pods-Pryaniky.com.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pryaniky.com.release.xcconfig"; path = "Target Support Files/Pods-Pryaniky.com/Pods-Pryaniky.com.release.xcconfig"; sourceTree = "<group>"; };
+		A0DC3045CAB8B4A802AA1CCE /* Pods_Pryaniky_com.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pryaniky_com.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA500AF828648EC8006C5143 /* Pryaniky.com.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pryaniky.com.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA500AFB28648EC8006C5143 /* Pryaniky_comApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pryaniky_comApp.swift; sourceTree = "<group>"; };
+		CA500AFF28648ECA006C5143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA500B0228648ECA006C5143 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA500B0A28649366006C5143 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA500B0D286493E3006C5143 /* ApiRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRouter.swift; sourceTree = "<group>"; };
+		CA500B1028649436006C5143 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CA500B1428649487006C5143 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CA500B16286494D0006C5143 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		CA500B18286494F6006C5143 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		CA500B1C286497D4006C5143 /* PickerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerItem.swift; sourceTree = "<group>"; };
+		CA500B1D286497D4006C5143 /* ViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewItem.swift; sourceTree = "<group>"; };
+		CA500B2028649898006C5143 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D2A28222B534A35D8216E903 /* Pods-Pryaniky.com.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pryaniky.com.debug.xcconfig"; path = "Target Support Files/Pods-Pryaniky.com/Pods-Pryaniky.com.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA500AF528648EC8006C5143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF6DC89C64C08FB3558453 /* Pods_Pryaniky_com.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFFE936DB980139684D74CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2A28222B534A35D8216E903 /* Pods-Pryaniky.com.debug.xcconfig */,
+				5A0915BDD55E4674F7B42075 /* Pods-Pryaniky.com.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DB9155D103F7A893895E442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0DC3045CAB8B4A802AA1CCE /* Pods_Pryaniky_com.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA500AEF28648EC8006C5143 = {
+			isa = PBXGroup;
+			children = (
+				CA500AFA28648EC8006C5143 /* Pryaniky.com */,
+				CA500AF928648EC8006C5143 /* Products */,
+				1CFFE936DB980139684D74CE /* Pods */,
+				8DB9155D103F7A893895E442 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA500AF928648EC8006C5143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA500AF828648EC8006C5143 /* Pryaniky.com.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA500AFA28648EC8006C5143 /* Pryaniky.com */ = {
+			isa = PBXGroup;
+			children = (
+				CA500AFB28648EC8006C5143 /* Pryaniky_comApp.swift */,
+				CA500B0F28649416006C5143 /* Model */,
+				CA500B0C286493C8006C5143 /* NetworkingManager */,
+				CA500B0928649354006C5143 /* Constants */,
+				CA500B1228649460006C5143 /* Core */,
+				CA500AFF28648ECA006C5143 /* Assets.xcassets */,
+				CA500B0128648ECA006C5143 /* Preview Content */,
+			);
+			path = Pryaniky.com;
+			sourceTree = "<group>";
+		};
+		CA500B0128648ECA006C5143 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B0228648ECA006C5143 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA500B0928649354006C5143 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B0A28649366006C5143 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CA500B0C286493C8006C5143 /* NetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B18286494F6006C5143 /* APIError.swift */,
+				CA500B16286494D0006C5143 /* ApiClient.swift */,
+				CA500B0D286493E3006C5143 /* ApiRouter.swift */,
+			);
+			path = NetworkingManager;
+			sourceTree = "<group>";
+		};
+		CA500B0F28649416006C5143 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B1028649436006C5143 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA500B1228649460006C5143 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B1B286497C1006C5143 /* Components */,
+				CA500B1A286497B3006C5143 /* View */,
+				CA500B132864946D006C5143 /* ViewModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CA500B132864946D006C5143 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B1428649487006C5143 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA500B1A286497B3006C5143 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B2028649898006C5143 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA500B1B286497C1006C5143 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CA500B1C286497D4006C5143 /* PickerItem.swift */,
+				CA500B1D286497D4006C5143 /* ViewItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA500AF728648EC8006C5143 /* Pryaniky.com */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA500B0628648ECA006C5143 /* Build configuration list for PBXNativeTarget "Pryaniky.com" */;
+			buildPhases = (
+				2432453BF903D9CE712FA472 /* [CP] Check Pods Manifest.lock */,
+				CA500AF428648EC8006C5143 /* Sources */,
+				CA500AF528648EC8006C5143 /* Frameworks */,
+				CA500AF628648EC8006C5143 /* Resources */,
+				18C9A077FA715C9917AFE878 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pryaniky.com;
+			productName = Pryaniky.com;
+			productReference = CA500AF828648EC8006C5143 /* Pryaniky.com.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA500AF028648EC8006C5143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CA500AF728648EC8006C5143 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = CA500AF328648EC8006C5143 /* Build configuration list for PBXProject "Pryaniky.com" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA500AEF28648EC8006C5143;
+			productRefGroup = CA500AF928648EC8006C5143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA500AF728648EC8006C5143 /* Pryaniky.com */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA500AF628648EC8006C5143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA500B0328648ECA006C5143 /* Preview Assets.xcassets in Resources */,
+				CA500B0028648ECA006C5143 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18C9A077FA715C9917AFE878 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pryaniky.com/Pods-Pryaniky.com-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pryaniky.com/Pods-Pryaniky.com-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pryaniky.com/Pods-Pryaniky.com-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2432453BF903D9CE712FA472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pryaniky.com-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA500AF428648EC8006C5143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA500B17286494D0006C5143 /* ApiClient.swift in Sources */,
+				CA500B1F286497D4006C5143 /* ViewItem.swift in Sources */,
+				CA500B1128649436006C5143 /* Model.swift in Sources */,
+				CA500B2128649898006C5143 /* HomeView.swift in Sources */,
+				CA500B1528649487006C5143 /* HomeViewModel.swift in Sources */,
+				CA500B1E286497D4006C5143 /* PickerItem.swift in Sources */,
+				CA500B0E286493E3006C5143 /* ApiRouter.swift in Sources */,
+				CA500B19286494F6006C5143 /* APIError.swift in Sources */,
+				CA500AFC28648EC8006C5143 /* Pryaniky_comApp.swift in Sources */,
+				CA500B0B28649366006C5143 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA500B0428648ECA006C5143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA500B0528648ECA006C5143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA500B0728648ECA006C5143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A28222B534A35D8216E903 /* Pods-Pryaniky.com.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pryaniky.com/Preview Content\"";
+				DEVELOPMENT_TEAM = 8K2Q9WF2BB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vardan.Pryaniky-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA500B0828648ECA006C5143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A0915BDD55E4674F7B42075 /* Pods-Pryaniky.com.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pryaniky.com/Preview Content\"";
+				DEVELOPMENT_TEAM = 8K2Q9WF2BB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vardan.Pryaniky-com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA500AF328648EC8006C5143 /* Build configuration list for PBXProject "Pryaniky.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA500B0428648ECA006C5143 /* Debug */,
+				CA500B0528648ECA006C5143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA500B0628648ECA006C5143 /* Build configuration list for PBXNativeTarget "Pryaniky.com" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA500B0728648ECA006C5143 /* Debug */,
+				CA500B0828648ECA006C5143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA500AF028648EC8006C5143 /* Project object */;
+}
